@@ -1,0 +1,41 @@
+# Dataset (large file — download separately, see README)
+*.jsonl
+
+# Virtual environment
+venv/
+.venv/
+env/
+Myvenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# MRJob temp files
+tmp/
+*.tmp
+
+# Generated output files
+job1_results.txt
+job2_results.txt
+job3_results.txt
+job4_results.txt
+job5_results.txt
+job6_results.txt
+job6_sentiment_chart.png
+
+# Generated report documents
+MapReduce_Project_Report.docx
+MapReduce_Project_Report.pptx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
