@@ -37,7 +37,6 @@ map-reduce-project/
 ├── job5_helpfulness_score.py         # Job 5: Average helpfulness score
 ├── job6_sentiment_analysis.py        # Job 6: Sentiment analysis of review text
 │
-├── generate_report_docs.py           # Generates .docx and .pptx report files
 │
 ├── requirements.txt                  # All required Python packages
 │
@@ -48,10 +47,6 @@ map-reduce-project/
 ├── job5_results.txt                  # Output: Job 5 results (auto-generated)
 ├── job6_results.txt                  # Output: Job 6 results (auto-generated)
 ├── job6_sentiment_chart.png          # Output: Sentiment chart (auto-generated)
-│
-├── MapReduce_Project_Report.md       # Report (Markdown)
-├── MapReduce_Project_Report.docx     # Report (Word document)
-└── MapReduce_Project_Report.pptx     # Report (PowerPoint presentation)
 ```
 
 ---
@@ -263,7 +258,7 @@ python job2_reviews_per_product.py
 
 **Sample:**
 ```bash
-python job2_reviews_per_product.py --sample 100000
+python job2_reviews_per_product.py --sample 50000
 ```
 
 **Output:** `job2_results.txt`
@@ -281,7 +276,7 @@ python job3_average_rating.py
 
 **Sample:**
 ```bash
-python job3_average_rating.py --sample 100000
+python job3_average_rating.py --sample 50000
 ```
 
 **Output:** `job3_results.txt`
@@ -299,7 +294,7 @@ python job4_top_ten_products.py
 
 **Sample:**
 ```bash
-python job4_top_ten_products.py --sample 200000
+python job4_top_ten_products.py --sample 50000
 ```
 
 **Output:** `job4_results.txt`
@@ -317,7 +312,7 @@ python job5_helpfulness_score.py
 
 **Sample:**
 ```bash
-python job5_helpfulness_score.py --sample 200000
+python job5_helpfulness_score.py --sample 50000
 ```
 
 **Output:** `job5_results.txt`
@@ -335,7 +330,7 @@ python job6_sentiment_analysis.py
 
 **Sample:**
 ```bash
-python job6_sentiment_analysis.py --sample 200000
+python job6_sentiment_analysis.py --sample 50000
 ```
 
 **Output:** `job6_results.txt`, `job6_sentiment_chart.png`
@@ -366,7 +361,6 @@ python job3_average_rating.py
 python job4_top_ten_products.py
 python job5_helpfulness_score.py
 python job6_sentiment_analysis.py
-python generate_report_docs.py
 ```
 
 **macOS / Linux (single command):**
@@ -377,7 +371,6 @@ python job3_average_rating.py && \
 python job4_top_ten_products.py && \
 python job5_helpfulness_score.py && \
 python job6_sentiment_analysis.py && \
-python generate_report_docs.py
 ```
 
 > Note: Running all jobs on the full dataset may take several minutes depending on your machine. Use `--sample 50000` for a quick test run of each job.
@@ -395,8 +388,6 @@ python generate_report_docs.py
 | `job5_results.txt`             | `job5_helpfulness_score.py`| Helpfulness score statistics           |
 | `job6_results.txt`             | `job6_sentiment_analysis.py` | Sentiment distribution results       |
 | `job6_sentiment_chart.png`     | `job6_sentiment_analysis.py` | Pie + bar chart (matplotlib)         |
-| `MapReduce_Project_Report.docx`| `generate_report_docs.py`  | Full report (Word document)            |
-| `MapReduce_Project_Report.pptx`| `generate_report_docs.py`  | Full report (PowerPoint presentation)  |
 
 ---
 
