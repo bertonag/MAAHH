@@ -17,7 +17,6 @@ A Python MapReduce project using **MRJob** to analyse Amazon product reviews acr
   - [Job 4 — Top Ten Most-Reviewed Products](#job-4--top-ten-most-reviewed-products)
   - [Job 5 — Average Helpfulness Score](#job-5--average-helpfulness-score)
   - [Job 6 — Sentiment Analysis](#job-6--sentiment-analysis)
-  - [Generate Report Documents](#generate-report-documents)
 - [Output Files](#output-files)
 - [Troubleshooting](#troubleshooting)
 
