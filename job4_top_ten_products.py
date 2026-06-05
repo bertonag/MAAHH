@@ -8,7 +8,7 @@ Two-step MapReduce pipeline:
 
 Run:
     python job4_top_ten_products.py
-    python job4_top_ten_products.py --sample 200000
+    python job4_top_ten_products.py --sample 50000
 """
 
 import json

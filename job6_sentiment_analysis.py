@@ -16,7 +16,7 @@ Sentiment scoring (no external NLP library needed):
 
 Run:
     python job6_sentiment_analysis.py
-    python job6_sentiment_analysis.py --sample 200000
+    python job6_sentiment_analysis.py --sample 50000
 """
 
 import json

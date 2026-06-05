@@ -8,7 +8,7 @@ Output printed to console and saved to job2_results.txt.
 
 Run:
     python job2_reviews_per_product.py
-    python job2_reviews_per_product.py --sample 100000
+    python job2_reviews_per_product.py --sample 50000
 """
 
 import json

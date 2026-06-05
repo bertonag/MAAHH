@@ -21,7 +21,7 @@ This job therefore reports:
 
 Run:
     python job5_helpfulness_score.py
-    python job5_helpfulness_score.py --sample 200000
+    python job5_helpfulness_score.py --sample 50000
 """
 
 import json

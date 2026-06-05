@@ -8,7 +8,7 @@ Demonstrates aggregating numerical data across the full dataset.
 
 Run:
     python job3_average_rating.py
-    python job3_average_rating.py --sample 100000
+    python job3_average_rating.py --sample 50000
 """
 
 import json
